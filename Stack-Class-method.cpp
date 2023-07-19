@@ -44,7 +44,7 @@ public:
             cout << "stack underflow" << endl;
         }
     }
-    int peek()
+    int peek()//top most element
     {
         if (top >= 0){
             return arr[top];

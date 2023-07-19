@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+//node 
 struct Node
 {
     int val;
@@ -81,12 +81,12 @@ public:
     }
     void showElements()
     {
-        cout<<"Stack elements are :" ;
-        while(head!=NULL)
+        cout << "Stack elements are :";
+        while (head != NULL)
         {
-        
-cout<<head->val<<" ";
-head = head->next;
+
+            cout << head->val << " ";
+            head = head->next;
         }
     }
 };
