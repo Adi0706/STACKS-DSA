@@ -12,7 +12,6 @@ void insertAtBottom(stack<int> &st,int x)
         st.push(x);
         return;
     }
-
     // Recurrence Relation
     int num = st.top();
     st.pop();
@@ -25,8 +24,14 @@ void insertAtBottom(stack<int> &st,int x)
 void revStack(stack<int>&st)
 {
 
+  if(st.empty()){
+    return ; 
+  }
+
   int num = st.top() ; 
   st.pop() ;
+  //store the top first and recursion will rev the rest stack 
+  //when return ing push the top element at the bottom of the stack 
 
   revStack(st);
 

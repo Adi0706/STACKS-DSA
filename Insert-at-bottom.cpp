@@ -35,6 +35,7 @@ int main()
     st.push(5);
 
     solve(st,x);
+    
    while (!st.empty()) {
     int p = st.top();
     cout << p << " " << endl;

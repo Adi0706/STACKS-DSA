@@ -1,7 +1,9 @@
 #include <iostream>
 #include <stack>
 using namespace std;
-
+// (())--> test case
+//ch= (())
+    //st = empty
 int main()
 {
     string str = "{()}";
