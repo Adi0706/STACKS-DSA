@@ -22,7 +22,7 @@ vector<int> nextGreaterElement(vector<int>& nums1, vector<int>& nums2){
     }
     vector<int> ans ; 
     for(auto j : nums1 ){
-        ans.push_back(umap[i]) ; 
+        ans.push_back(umap[j]) ; 
     }
 
 
